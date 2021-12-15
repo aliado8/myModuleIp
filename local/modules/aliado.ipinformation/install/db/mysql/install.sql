@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `aliado_ipinformation` (
+    `ID` INT NOT NULL AUTO_INCREMENT,
+    `ORDER_ID` INT,
+    `IP` VARCHAR(15) NULL,
+    `DATA` TEXT NOT NULL,
+    PRIMARY KEY (`ID`)
+);
